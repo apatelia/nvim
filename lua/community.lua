@@ -28,6 +28,7 @@ return {
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
 
+  { import = "astrocommunity.recipes.neovide" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- { import = "astrocommunity.recipes.ai" },
 }

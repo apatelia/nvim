@@ -33,6 +33,15 @@ return {
         shiftwidth = 2, -- sets vim.opt.shiftwidth
         tabstop = 2, -- sets vim.opt.tabstop
       },
+      o = { -- vim.o.<key>
+        -- configure global vim options (vim.o)
+        -- NOTE: `clipboard` is set to `unnamedplus` by default
+        --       this can be changed in the `lua/lazy_setup.lua` file
+        -- completeopt = "menu,menuone,noselect", -- sets vim.o.completeopt
+        -- termguicolors = true, -- sets vim.o.termguicolors
+        cmdheight = 1, -- sets vim.o.cmdheight
+        scrolloff = 8, -- sets vim.o.scrolloff
+      },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
         -- NOTE: `mapleader` and `maplocalleader` must be set in the AstroNvim opts or before `lazy.setup`
