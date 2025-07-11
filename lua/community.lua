@@ -21,6 +21,8 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.editing-support.cutlass-nvim" },
 
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+
   { import = "astrocommunity.search.grug-far-nvim" },
 
   { import = "astrocommunity.test.neotest" },
@@ -29,6 +31,6 @@ return {
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
 
   { import = "astrocommunity.recipes.neovide" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.recipes.ai" },
+  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- { import = "astrocommunity.recipes.ai" },
 }
