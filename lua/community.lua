@@ -33,4 +33,6 @@ return {
   { import = "astrocommunity.recipes.neovide" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- { import = "astrocommunity.recipes.ai" },
+
+  { import = "astrocommunity.color.twilight-nvim" },
 }
