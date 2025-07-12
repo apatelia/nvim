@@ -27,6 +27,12 @@ return {
           ["<Leader>bn"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
           ["<Leader>bp"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
 
+          -- mapping for Language Tools - LSP.
+          ["<leader>lw"] = { function() Snacks.picker.lsp_workspace_symbols() end, desc = "LSP Workspace Symbols" },
+
+          -- mappings for MCP Hub.
+          ["<Leader>ph"] = { "<CMD>MCPHub<CR>", desc = "Open MCP Hub" },
+
           -- mappings for session management.
           ["<Leader>S"] = false,
           ["<Leader>Sl"] = false,

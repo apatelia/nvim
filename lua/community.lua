@@ -7,6 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.eslint" },
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
@@ -28,11 +29,17 @@ return {
   { import = "astrocommunity.test.neotest" },
 
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
+  { import = "astrocommunity.recipes.picker-lsp-mappings" },
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
+  { import = "astrocommunity.lsp.lsp-lens-nvim" },
 
   { import = "astrocommunity.recipes.neovide" },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.editing-support.mcphub-nvim" },
+  { import = "astrocommunity.editing-support.copilotchat-nvim" },
   -- { import = "astrocommunity.recipes.ai" },
 
   { import = "astrocommunity.color.twilight-nvim" },
+  { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
+  { import = "astrocommunity.register.nvim-neoclip-lua" },
 }
