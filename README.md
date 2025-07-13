@@ -1,11 +1,12 @@
 # AstroNvim Configuration
 
 My customized configuration of [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+
 **NOTE:** This is for AstroNvim v5+.
 
 ## 🛠️ Installation
 
-Install [neovim][https://neovim.io/], if you haven't installed it already.
+Install [neovim](https://neovim.io/).
 
 Install [pre-requisites](https://docs.astronvim.com/#-requirements) for AstroNvim.
 
