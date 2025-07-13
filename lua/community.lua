@@ -10,10 +10,7 @@ return {
   { import = "astrocommunity.pack.eslint" },
 
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.dracula-nvim" },
-  { import = "astrocommunity.recipes.vscode-icons" },
-
-  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+  -- { import = "astrocommunity.colorscheme.dracula-nvim" },
 
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
@@ -21,6 +18,7 @@ return {
   { import = "astrocommunity.editing-support.suda-vim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.editing-support.cutlass-nvim" },
+  { import = "astrocommunity.register.nvim-neoclip-lua" },
 
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 
@@ -29,17 +27,19 @@ return {
   { import = "astrocommunity.test.neotest" },
 
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
-  { import = "astrocommunity.recipes.picker-lsp-mappings" },
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   { import = "astrocommunity.lsp.lsp-lens-nvim" },
 
+  { import = "astrocommunity.recipes.picker-lsp-mappings" },
+  { import = "astrocommunity.recipes.vscode-icons" },
+  { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.neovide" },
+
   { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.editing-support.mcphub-nvim" },
   { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  -- { import = "astrocommunity.editing-support.mcphub-nvim" },
   -- { import = "astrocommunity.recipes.ai" },
 
   { import = "astrocommunity.color.twilight-nvim" },
-  { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
-  { import = "astrocommunity.register.nvim-neoclip-lua" },
+  -- { import = "astrocommunity.keybinding.nvcheatsheet-nvim" },
 }
