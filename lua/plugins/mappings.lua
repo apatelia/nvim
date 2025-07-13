@@ -30,9 +30,6 @@ return {
           -- mapping for Language Tools - LSP.
           ["<leader>lw"] = { function() Snacks.picker.lsp_workspace_symbols() end, desc = "LSP Workspace Symbols" },
 
-          -- mappings for MCP Hub.
-          ["<Leader>ph"] = { "<CMD>MCPHub<CR>", desc = "Open MCP Hub" },
-
           -- mappings for session management.
           ["<Leader>S"] = false,
           ["<Leader>Sl"] = false,
