@@ -43,6 +43,12 @@ return {
             icon = "",
           },
           {
+            key = "u",
+            action = ":Lazy",
+            desc = "Update Plugins",
+            icon = "󰚰",
+          },
+          {
             key = "q",
             action = "<leader>q",
             desc = "Quit",
