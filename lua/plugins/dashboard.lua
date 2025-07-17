@@ -31,21 +31,21 @@ return {
             icon = " ",
           },
           {
-            key = "c",
-            action = "<leader>fa",
-            desc = "Configuration",
-            icon = " ",
-          },
-          {
             key = "s",
             action = function() require("resession").load() end,
             desc = "Load a saved session",
             icon = "",
           },
           {
-            key = "u",
+            key = "c",
+            action = "<leader>fa",
+            desc = "Configuration",
+            icon = " ",
+          },
+          {
+            key = "p",
             action = ":Lazy",
-            desc = "Update Plugins",
+            desc = "Plugin Manager",
             icon = "󰚰",
           },
           {
