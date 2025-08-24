@@ -9,7 +9,7 @@ return {
           ["k"] = { "gk" },
           -- Moving Lines
           ["<A-j>"] = { "<CMD>m .+1<CR>", desc = "Move line down" },
-          ["<A-k>"] = { "<Cmd>m .-2<CR>", desc = "Move line up" },
+          ["<A-k>"] = { "<CMD>m .-2<CR>", desc = "Move line up" },
           ["<C-S-Up>"] = { "<CMD>m .-2<CR>", desc = "Move line up" },
           ["<C-S-Down>"] = { "<CMD>m .+1<CR>", desc = "Move line down" },
 
@@ -17,7 +17,8 @@ return {
           ["<Leader>W"] = { "<CMD>SudaWrite<CR>", desc = "Write as Admin" },
 
           -- mappings seen under group name "Buffer"
-          ["<Leader>bb"] = false,
+          ["<Leader>ba"] = { "<CMD>%y+<CR>", desc = "Select all contents of current buffer" },
+          ["<Leader>bb"] = { "<CMD>bn<CR>", desc = "Return back to the most recently used buffer" },
           ["<Leader>bf"] = {
             function()
               require("astroui.status.heirline").buffer_picker(function(bufnr) vim.api.nvim_win_set_buf(0, bufnr) end)

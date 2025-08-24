@@ -18,7 +18,7 @@ return {
   { import = "astrocommunity.editing-support.suda-vim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.editing-support.cutlass-nvim" },
-  { import = "astrocommunity.editing-support.refactoring-nvim" },
+  { import = "astrocommunity.editing-support.multicursors-nvim" },
   { import = "astrocommunity.register.nvim-neoclip-lua" },
 
   { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
