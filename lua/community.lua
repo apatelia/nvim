@@ -28,7 +28,7 @@ return {
   { import = "astrocommunity.test.neotest" },
 
   { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
-  { import = "astrocommunity.lsp.ts-error-translator-nvim" },
+  -- { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   { import = "astrocommunity.lsp.lsp-lens-nvim" },
 
   { import = "astrocommunity.recipes.picker-lsp-mappings" },
@@ -36,8 +36,9 @@ return {
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.neovide" },
 
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  { import = "astrocommunity.editing-support.codecompanion-nvim" },
   -- { import = "astrocommunity.editing-support.mcphub-nvim" },
   -- { import = "astrocommunity.recipes.ai" },
 
