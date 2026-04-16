@@ -10,6 +10,7 @@ return {
   { import = "astrocommunity.pack.eslint" },
 
   { import = "astrocommunity.colorscheme.catppuccin" },
+  -- { import = "astrocommunity.recipes.vscode-icons" },
   -- { import = "astrocommunity.colorscheme.dracula-nvim" },
 
   { import = "astrocommunity.motion.flash-nvim" },
@@ -36,8 +37,9 @@ return {
   { import = "astrocommunity.recipes.heirline-mode-text-statusline" },
   { import = "astrocommunity.recipes.neovide" },
 
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
-  -- { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- { import = "astrocommunity.ai.copilotchat-nvim" },
+  -- { import = "astrocommunity.ai.sidekick-nvim" },
   { import = "astrocommunity.ai.codecompanion-nvim" },
   -- { import = "astrocommunity.editing-support.mcphub-nvim" },
   -- { import = "astrocommunity.recipes.ai" },
